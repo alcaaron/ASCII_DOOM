@@ -6,8 +6,6 @@
 
 Source-port of [doomgeneric](https://github.com/ozkl/doomgeneric). Does not have sound.
 
-You will need a WAD file (game data). If you don't own the game, the shareware version is freely available.
-
 ## Build
 
 Binaries for Windows and Linux are provided as github releases.
@@ -25,6 +23,15 @@ Compile on linux. Creates ```doom_ascii/doom_ascii.exe```
 cd src
 make windows
 ```
+
+## Choose DOOM game
+```
+./doom_ascii -iwad ../iwads/doom_game.wad -scaling n
+```
+Replacing doom_game for any .WAD file in the iwads directory,
+
+(The higher the scaling value, the smaller the screen size).
+
 
 ## Controls
 
